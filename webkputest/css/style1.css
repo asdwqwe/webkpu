@@ -1,0 +1,77 @@
+body{
+    background-color: #ffeda1;
+}
+
+#navbar{
+    background-color: #eec10fc4;
+    border-color:#ffcc00;
+}
+
+#logo{
+    margin-top: -43px;
+    margin-left: 50px;
+}
+
+#side-title{
+    font-size: 12px;
+}
+
+#map{
+    height: 400px;
+    width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+
+}
+
+footer{
+	position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eec10fc4;
+    color: white;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: #eec10f14;
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+
+  .droppbtn {
+    background-color:#f5f5f5;
+    color: #eec10fc4;
+    font-size: 30px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eec10fc4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffcc00;}
